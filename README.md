@@ -59,6 +59,8 @@ Below are the links i'd read for guidance or to enlighten some problem i'd encou
   - https://towardsdatascience.com/a-project-driven-approach-to-learning-pyspark-4533c85f52b3
 - **Spark windows feature**
   - https://sparkbyexamples.com/pyspark/pyspark-window-functions/
+- **Repository from the reference project:**
+  - https://github.com/henokyemam/Wrangling_PySpark
 
 ### **Poetry** - virtual env and dependencies manager
 - **Oficial documentation:**
