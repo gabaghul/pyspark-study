@@ -16,6 +16,33 @@ The questions suggested in the article was:
 4) Which season of Bundesliga was the most competitive in the last decade?
 5) What's the best month to watch Bundesliga?
 
+## Requirements
+In this project i'm using a virtual environment and dependencies manager called [Poetry](https://python-poetry.org/docs/).
+
+`Poetry` reads all dependencies into `pyproject.toml` and `poetry.lock` to install dependencies and dev dependencies. You need to install Poetry in your environment and do the following:
+
+1) Run poetry install and it will install all necessary dependencies, and create your virtual env as well.
+   ```
+    poetry install
+   ```
+   **Optional**: you can run one of the commands below to check if your venv is ok.
+   ```
+   poetry env list
+   ```
+   or
+   ```
+   poetry env info
+   ```
+
+2) Run poetry shell to use your new virtual environment.
+   ```
+   poetry shell
+   ```
+3) Run `jupyter` from `poetry` using the command below:
+   ```
+   poetry run jupyter notebook
+   ```
+4) You can use one of the listed paths described into jupyter log to use the `.ipynb` notebook file, or use another environment of your preference (i for instance use vscode with jupyter plugin).
 
 ## References
 
